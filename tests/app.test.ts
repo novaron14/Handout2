@@ -11,4 +11,3 @@ test('handles single input', () => {
 test('handles multiple inputs', () => {
   expect(greet(['Alice', 'Bob', 'Jerry'])).toBe('Hello Alice, Bob and Jerry.');
 });
-
